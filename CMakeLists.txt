@@ -88,8 +88,8 @@ else()
 
     message(AUTHOR_WARNING "\n!!!Compiling in Debug mode!!!\n")
     # Debug
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -O3  -g")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O3  -g")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -O0 -g")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0  -g")
 
     # Debug with g2o compiled with -march=native; this should avoid g2o crash (see "Mismatched build flags" on https://github.com/ethz-asl/eigen_catkin/wiki/Eigen-Memory-Issues#memory-misalignment )
     #set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wall  -g -O3 -march=native -fPIC -pthread ") # -fsanitize=address

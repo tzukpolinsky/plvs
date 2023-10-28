@@ -82,7 +82,7 @@ Thirdparty/g2o_new/install/
 Thirdparty/g2o_new/config.h
 Thirdparty/g2o_new/lib/
 
-Thirdparty/Pangolin 
+Thirdparty/Pangolin/build/
 
 Thirdparty/opencv
 
@@ -219,3 +219,6 @@ Results/
 
 # Calibration
 Examples/Calibration/recorder-*
+cmake-build-debug/
+.vs
+.vscode
